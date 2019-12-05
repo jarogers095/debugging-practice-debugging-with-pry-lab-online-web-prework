@@ -10,8 +10,6 @@ end
 
 def turtle_traits(turtles)
   turtles.each do |turtle|
-    turtle.each do |stat|
-      puts stat
-    end
+    puts turtle[:traits]
   end
 end
