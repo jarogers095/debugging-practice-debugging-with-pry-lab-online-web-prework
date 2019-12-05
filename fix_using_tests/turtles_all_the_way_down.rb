@@ -1,4 +1,4 @@
-
+require 'pp'
 def turtles
     [
       {name: "Donatello", weapon: "bo-staff", traits: ["serious", "leader"]},
@@ -9,7 +9,5 @@ def turtles
 end
 
 def turtle_traits(turtles)
-  turtles.each do |turtle|
-    turtle[:name]
-  end
+  pp turtles
 end
