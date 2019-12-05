@@ -9,5 +9,7 @@ def turtles
 end
 
 def turtle_traits(turtles)
-  pp turtles
+  turtles.each do |turtle|
+    puts turtle
+  end
 end
