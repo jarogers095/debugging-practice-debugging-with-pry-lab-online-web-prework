@@ -12,11 +12,11 @@ def crew
 end
 
 def greet_crew (crew)
-  crew.each {|crew_member| puts "Hello #{crew_member}."}
+  crew.each {|crew_member| "Hello #{crew_member}."}
 end
 
 def engage
   date = generate_star_date
-  state_log(date)
-  greet_crew(crew)
+  puts state_log(date)
+  puts greet_crew(crew)
 end
